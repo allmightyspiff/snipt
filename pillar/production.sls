@@ -1,5 +1,5 @@
 env_name: production
-hostname: snipt.net
+hostname: snipt.lablayer.info
 deploy_user: deploy
 
 users:
@@ -9,10 +9,6 @@ users:
       - deploy
       - wheel
   -
-    name: nick
-    groups:
-      - deploy
-      - wheel
 
 ssh:
-    port: 55555
+    port: 22
